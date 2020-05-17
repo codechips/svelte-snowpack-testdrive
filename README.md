@@ -1,30 +1,28 @@
-# New Project
+# svelte-snowpack-testdrive
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+This is the example code for the article I wrote on [Snowpack](https://www.snowpack.dev/) v2 and [Svelte](https://svelte.dev/).
 
-## Available Scripts
+[Snowpack with Svelte, Typescript and Tailwind CSS is a very pleasant surprise](https://codechips.me/snowpack-svelte-typescript-tailwindcss/)
 
-### npm start
+## What's in the box?
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+The example is based on Snowpack's Svelte [SCA](https://www.snowpack.dev/#create-snowpack-app-(csa)) and includes the following.
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+:heavy_check_mark: Snowpack v2 (beta)
+:heavy_check_mark: Svelte support
+:heavy_check_mark: Typescript support
+:heavy_check_mark: PostCSS with Tailwind CSS
 
-### npm test
+## To run the example
 
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+```bash
+$ git clone https://github.com/codechips/svelte-snowpack-testdrive.git
+$ cd svelte-snowpack-testdrive
+$ npm i && npm start
 
-### npm run build
+```
 
-Builds the app for production to the `build/` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## There is more!
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+For more interesting stuff like this follow me on [Twitter](https://twitter.com/codechips) or check out my blog at https://codechips.me
 
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.

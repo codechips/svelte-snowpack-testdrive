@@ -1,6 +1,11 @@
 {
   "extends": "@snowpack/app-scripts-svelte",
-  "scripts": {},
+  "scripts": {
+    "plugin:ts": "@snowpack/plugin-babel",
+    "run:tsc": "tsc --noEmit",
+    "run:tsc::watch": "$1 --watch",
+    "build:css": "postcss"
+  },
   "devOptions": {},
   "installOptions": {}
 }
