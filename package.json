@@ -8,9 +8,9 @@
   "webDependencies": {},
   "devDependencies": {
     "@babel/preset-typescript": "^7.9.0",
-    "@snowpack/app-scripts-svelte": "^0.5.1",
-    "@snowpack/plugin-babel": "^0.5.1",
-    "@testing-library/jest-dom": "^5.5.0",
+    "@snowpack/app-scripts-svelte": "^0.6.1",
+    "@snowpack/plugin-babel": "^0.6.2",
+    "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/svelte": "^3.0.0",
     "autoprefixer": "^9.8.0",
     "cssnano": "^4.1.10",
@@ -18,9 +18,9 @@
     "parcel-bundler": "^1.12.4",
     "postcss-cli": "^7.1.1",
     "rxjs": "^6.5.5",
-    "snowpack": "^2.0.0-0",
-    "svelte": "^3.21.0",
+    "snowpack": "^2.0.0-rc.2",
+    "svelte": "^3.22.3",
     "tailwindcss": "^1.4.6",
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.3"
   }
 }
