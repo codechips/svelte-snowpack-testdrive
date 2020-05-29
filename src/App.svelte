@@ -30,7 +30,7 @@
 </script>
 
 <div class="app">
-  <div class="box bg-green-300 px-5">
+  <div class="px-5 bg-green-300 box">
     <div>TS Timer {$timer}</div>
     <div>Rx Timer {$rxTimer}</div>
   </div>
